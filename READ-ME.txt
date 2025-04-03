@@ -1,0 +1,95 @@
+Workshop Management System
+
+📌 Sobre o Projeto
+
+O Workshop Management System é um sistema simples desenvolvido em Java com Spring Boot para gerenciar workshops, incluindo o cadastro de participantes, eventos e administração de palestras.
+
+🚀 Tecnologias Utilizadas
+
+Java 17+
+
+Spring Boot 3+
+
+Spring Data JPA (para manipulação do banco de dados)
+
+H2 Database (banco de dados em memória para testes)
+
+Spring Web (para criação da API REST)
+🛠 Como Executar o Projeto
+
+1️⃣ Clone o Repositório
+
+git clone https://github.com/seuusuario/workshop-system.git
+cd workshop-system
+
+2️⃣ Configure o Banco de Dados
+
+Caso esteja utilizando um banco de dados diferente do H2, edite o arquivo application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/workshop_db
+spring.datasource.username=root
+spring.datasource.password=senha
+spring.jpa.hibernate.ddl-auto=update
+
+3️⃣ Execute o Projeto
+
+mvn spring-boot:run
+
+O sistema estará rodando em: http://localhost:8080
+
+📌 Endpoints Principais (API REST)
+
+Método
+
+Endpoint
+
+Descrição
+
+GET
+
+/users 
+/orders
+/products
+
+Lista todos os workshops
+
+POST
+
+/users 
+/orders
+/products
+
+Cria um novo workshop
+
+GET
+
+/users/{id} 
+/orders/{id}
+/products/{id}
+
+Consulta um workshop pelo ID
+
+PUT
+
+/users/{id}
+
+Atualiza os dados de um workshop
+
+DELETE
+
+/users/{id}
+
+Remove um workshop
+
+📝 Licença
+
+
+
+📬 Contato
+
+Caso tenha alguma dúvida ou sugestão, entre em contato:
+
+Email: pedrohecan@email.com
+
+
+Feito com 💙 por [Pedro Candido] 😊
