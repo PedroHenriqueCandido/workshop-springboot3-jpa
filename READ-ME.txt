@@ -81,9 +81,6 @@ DELETE
 
 Remove um workshop
 
-📝 Licença
-
-
 
 📬 Contato
 
